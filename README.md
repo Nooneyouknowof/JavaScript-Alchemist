@@ -1,4 +1,4 @@
-##JavaScript Alchemist
+## JavaScript Alchemist
 
 Unleash the power of automation with **ScriptFlow**, the JavaScript Alchemist Chrome extension!
 
