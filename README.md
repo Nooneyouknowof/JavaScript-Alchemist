@@ -1,4 +1,4 @@
-## JavaScript Alchemist
+# JavaScript Alchemist
 
 Unleash the power of automation with **ScriptFlow**, the JavaScript Alchemist Chrome extension!
 
@@ -20,4 +20,3 @@ Tired of manually injecting JavaScript code into web pages for testing, debuggin
 
 Whether you're a developer, tester, or just a curious web enthusiast, ScriptFlow will revolutionize the way you interact with the web. Embrace automation, and start scripting your web experience today with **ScriptFlow: JavaScript Alchemist**.
 
-Download now and witness the magic of automation!
