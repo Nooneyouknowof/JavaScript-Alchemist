@@ -1,54 +1,69 @@
 {
-    "manifest_version": 3,
-    "name": "JavaScript Alchemist",
-    "version": "1.0",
-    "description": "Automate JavaScript injection on web pages with the JavaScript Alchemist extension.",
-    "icons": {
-      "128": "icon128.png",
-      "48": "icon48.png"
-    },
-    "permissions": [
-      "activeTab",
-      "scripting",
-      "webNavigation",
-      "webRequest",
-      "webRequestBlocking"
-    ],
-    "background": {
-      "service_worker": "background.js"
-    },
-    "action": {
-      "default_popup": "popup.html",
-      "default_icon": {
-        "16": "icon16.png",
-        "48": "icon48.png",
-        "128": "icon128.png"
-      }
-    },
-    "options_ui": {
-      "page": "options.html",
-      "chrome_style": true
-    },
-    "browser_action": {
-      "default_title": "ScriptFlow",
-      "default_popup": "popup.html",
-      "default_icon": {
-        "16": "icon16.png",
-        "48": "icon48.png",
-        "128": "icon128.png"
-      }
-    },
-    "commands": {
-      "_execute_browser_action": {
-        "suggested_key": {
-          "default": "Ctrl+Shift+S",
-          "mac": "Command+Shift+S"
-        },
-        "description": "Activate ScriptFlow"
-      }
-    },
-    "web_accessible_resources": [
-      "script.js",
-      "styles.css"
-    ]
-  }
+  "manifest_version": 3,
+  "name": "JavaScript Alchemist",
+  "version": "1.0",
+  "description": "Automate JavaScript injection on web pages with JavaScript Alchemist, the extension.",
+  "icons": {
+    "128": "./assets/Icons/Icon128.jpg",
+    "48": "./assets/Icons/Icon48.jpg"
+  },
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "webNavigation",
+    "webRequest",
+    "webRequestBlocking"
+  ],
+  "host_permissions": [
+    "*://*/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "./assets/Icons/Icon16.png",
+      "48": "./assets/Icons/Icon48.jpg",
+      "128": "./assets/Icons/Icon128.jpg"
+    }
+  },
+  "options_ui": {
+    "page": "options.html"
+  },
+  "browser_action": {
+    "default_title": "ScriptFlow",
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon16.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
+    }
+  },
+  "commands": {
+    "_execute_browser_action": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+S",
+        "mac": "Command+Shift+S"
+      },
+      "description": "Activate ScriptFlow"
+    }
+  },
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "script.js",
+        "styles.css"
+      ],
+      "matches": [
+        "<all_urls>"
+      ]
+    }
+  ]
+}
