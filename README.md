@@ -20,3 +20,17 @@ Tired of manually injecting JavaScript code into web pages for testing, debuggin
 
 Whether you're a developer, tester, or just a curious web enthusiast, ScriptFlow will revolutionize the way you interact with the web. Embrace automation, and start scripting your web experience today with **ScriptFlow: JavaScript Alchemist**.
 
+---
+
+## JavaScript Alchemist v1.0
+
+### Features/Bugfixes
+
+- > `Injecting Usermade Scripts into Webpages`
+
+---
+
+## Statistics
+
+[![Github All Releases](https://img.shields.io/github/downloads/Nooneyouknowof/JavaScript-Alchemist/total.svg)]()
+[![Github All Releases](https://img.shields.io/github/downloads/Nooneyouknowof/JavaScript-Alchemist/total.svg)]()
