@@ -33,4 +33,3 @@ Whether you're a developer, tester, or just a curious web enthusiast, ScriptFlow
 ## Statistics
 
 [![Github All Releases](https://img.shields.io/github/downloads/Nooneyouknowof/JavaScript-Alchemist/total.svg)]()
-[![Github All Releases](https://img.shields.io/github/downloads/Nooneyouknowof/JavaScript-Alchemist/total.svg)]()
